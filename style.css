@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    background-color: rgb(151, 98, 200);
+    padding: 30px;
+    margin: auto;
+}
+
+.container h1 , p {
+    text-align: center;
+}
+
+input , textarea {
+     
+    display: block;             /*   button niche aa jayega */
+    font-size: 16px;
+    width: 80%;
+    margin: 12px 0px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 5px;
+    border-color: 2px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background-color: purple;
+    padding: 15px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 20%;
+    font-size: 1rem;
+}
+
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
